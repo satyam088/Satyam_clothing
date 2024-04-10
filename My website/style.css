@@ -1,0 +1,566 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the header */
+.header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for header content */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Logo */
+.logo img {
+    max-width: 150px;
+}
+
+/* Navigation menu */
+.navigation ul {
+    list-style: none;
+    display: flex;
+}
+
+.navigation ul li {
+    margin-right: 20px;
+}
+
+.navigation ul li:last-child {
+    margin-right: 0;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Call to action button */
+.cta-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+/* Style the hero section */
+
+.hero {
+    position: relative; /* Add relative positioning */
+    overflow: hidden; /* Hide overflow to prevent text from spilling out */
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Container for hero content */
+.container {
+    position: relative; /* Add relative positioning */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Hero content */
+.hero-content {
+    position: absolute; /* Position content absolutely */
+    top: 50%; /* Move content 50% from the top */
+    left: 50%; /* Move content 50% from the left */
+    transform: translate(-50%, -50%); /* Center content horizontally and vertically */
+    text-align: center;
+    color: #fff;
+    z-index: 1; /* Ensure content appears above the image */
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero-content .cta-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.hero-content .cta-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Container for hero content */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Hero content */
+.hero-content {
+    max-width: 500px;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+/* Hero image */
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+/* Style the featured products section */
+.featured-products {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+/* Container for featured products */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.featured-products h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #333;
+}
+
+/* Product grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Individual product */
+.product {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.product h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.product .price {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product .cta-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.product .cta-button:hover {
+    background-color: #0056b3;
+}
+/* Style the benefits section */
+.benefits {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
+
+/* Container for benefits */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.benefits h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #333;
+}
+
+/* Benefits grid */
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+/* Individual benefit */
+.benefit {
+    text-align: center;
+}
+
+.benefit img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.benefit h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.benefit p {
+    font-size: 16px;
+    color: #666;
+}
+/* Style the testimonials section */
+.testimonials {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+/* Container for testimonials */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.testimonials h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #333;
+}
+
+/* Testimonial slider */
+.testimonial-slider {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Individual testimonial */
+.testimonial {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.testimonial h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.testimonial span {
+    font-style: italic;
+    color: #888;
+}
+/* Style the about us section */
+.about-us {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
+
+/* Container for about us content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.about-us h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #333;
+}
+
+/* About content */
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-text p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+/* Style the newsletter section */
+.newsletter {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+/* Container for newsletter content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.newsletter h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.newsletter p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Newsletter form */
+.newsletter-form input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the contact section */
+.contact {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
+
+/* Container for contact content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Contact form */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+/* Style the footer section */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+/* Container for footer content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-info, .footer-links, .newsletter {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.newsletter-form input[type="email"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #333;
+    background-color: #fff;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background-color: #0056b3;
+}
+
+.footer-bottom {
+    background-color: #222;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
